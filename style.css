@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url('https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login{
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+    margin-top: 25vh;
+    height: 350px;
+}
+.login img{
+    margin-left: 40%;
+    margin-top: -52px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+}
+.login  form .sec{
+    padding-top: 50px;
+    text-align: center;
+}
+.login  form .sec .box input{
+    width: 87%;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid rgb(125, 125, 125);;
+}
+.login  form .sec .box i{
+    position: absolute;
+    padding: 15px 20px;
+    justify-content: center;
+    margin-top: 20px;
+    color: rgb(125, 125, 125);
+}
+.login  form .buttom{
+    justify-content: space-between;
+    margin:30px 32px;
+}
+.login  form .buttom input{
+    padding-right: 90px;
+}
+.login  form .buttom a{
+    margin-left: 40%;
+}
+
+.login  form .buttom .btn{
+    text-decoration: none;
+    background-color: orange;
+    padding: 8px 32px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.login  form .buttom .btn:hover{
+    background-color: #3e3e33;
+}
+.login  form p{
+    text-align: center;
+}
+.login  form p a{
+    color: violet;
+}
+.login  form p a:hover{
+    text-decoration: none;
+    color: #3e3e33;
+}
+
+@media (max-width:480px){
+    .login  form .buttom a{
+        margin-left: 10%;
+    }
+}
+@media (max-width:480px){
+    .login  form .buttom a{
+        margin-left: 10%;
+    }
+    .login  form .buttom .btn{
+        padding: 8px 10px;
+    }
+    .login img{
+        margin-left: 35%;
+    }
+}
